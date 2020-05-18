@@ -13,3 +13,8 @@ Key events, playing audio, and listening for the transitionend event.
 keycode.info is a website that tells you what key code belongs to each key you hit.
 If you call .play on an audio element that is already playing, it won't play it again. So you must rewind it to the start of the element (setting currentTime = 0).
 Adding and removing classes to an element through classList.add and classList.remove.
+
+### Day 2: May 17, 2020
+**CSS + JS Clock**<br>
+*Learned about* -
+By default transform on an element will rotate the element from 50% (the middle). You can change the transform-origin in CSS. setInterval can be use when you want to run something every so often. The transition property allow elements to change values over a specified duration. You can transition all or transition a specific property/properties. https://css-tricks.com/almanac/properties/t/transition/
