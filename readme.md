@@ -18,3 +18,8 @@ Adding and removing classes to an element through classList.add and classList.re
 **CSS + JS Clock**<br>
 *Learned about* -
 By default transform on an element will rotate the element from 50% (the middle). You can change the transform-origin in CSS. setInterval can be use when you want to run something every so often. The transition property allow elements to change values over a specified duration. You can transition all or transition a specific property/properties. https://css-tricks.com/almanac/properties/t/transition/
+
+### Day 3: May 18, 2020
+**Playing with CSS variables and JS.**<br>
+*Learned about* -
+Creating variables in CSS and updating them using JS. Difference between a nodeList and an array. Datasets - A dataset is an object that contains all the data- attributes from that specfic element, you don't have to use attribute selectors, it will just return an object of those data- attributes.
