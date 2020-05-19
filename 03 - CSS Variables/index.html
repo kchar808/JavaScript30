@@ -36,6 +36,7 @@
     .hl {
       color: var(--base);
     }
+
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -59,6 +60,19 @@
   </style>
 
   <script>
+    // creates a nodeList of inputs
+    const inputs = document.querySelectorAll('.controls input');
+
+    function handleUpdate() {
+      // we only have data-sizing on 2/3 of the inputs, which is why we need the blank. or else it'll append undefined when we change the base color
+      const suffix = this.dataset.sizing || '';
+      // selects the property and appends the value with the suffix
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+
+    // loops over inputs and adds the change and mousemove event-listener, then calls handleUpdate function
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
   </script>
 
 </body>
