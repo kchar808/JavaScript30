@@ -24,7 +24,12 @@ By default transform on an element will rotate the element from 50% (the middle)
 *Learned about* -
 Creating variables in CSS and updating them using JS. Difference between a nodeList and an array. Datasets - A dataset is an object that contains all the data- attributes from that specfic element, you don't have to use attribute selectors, it will just return an object of those data- attributes.
 
-### Day 4 : May 19, 2020
+### Day 4: May 19, 2020
 **Array Cardio Day 1**<br>
 *Learned about* -
 Similar to console.log you can do console.table and that'll show a table of your elements in the console. Array methods. *Filter:* pass it a function and it'll loop over every single item in the array. *Map:* Takes in an array and returns a new array of the same length. *Sort:* Comparing two elements at a time. You can order them by returning 1 or -1, that will bubble the items up and down. A ternary operator is a short-hand if statement. *Reduce:* executes a reducer function on each element of the array, resulting in a single value. You can call querySelector on any existing DOM element, not just document.
+
+### Day 5: May 21, 2020
+**Flex Panels Image Gallery**<br>
+*Learned about* -
+Refreshed Flexbox concepts and learned new tips using CSS first-child and last-child. Will checkout flexbox.io.
