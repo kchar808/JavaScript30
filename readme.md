@@ -39,3 +39,8 @@ Refreshed Flexbox concepts and learned new tips using CSS first-child and last-c
 **Ajax Type Ahead**<br>
 *Learned about* -
 Fetch API, fetch returns a promise. ES6 spread "spreads" an array into separate arguments. Regex (regular expressions).
+
+### Day 7: May 23, 2020
+**Array Cardio Day 2**<br>
+*Learned about* -
+.some() checks if at least one element in your array meets what you're looking for. If you use curly braces in console.log, it'll show you the name of the variable as well as the value ex. `console.log({isAdult});` .every() checks if every element in the array meets what you're looking for. findIndex() find the index of the element you're looking for.
