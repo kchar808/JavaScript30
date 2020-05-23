@@ -44,3 +44,8 @@ Fetch API, fetch returns a promise. ES6 spread "spreads" an array into separate 
 **Array Cardio Day 2**<br>
 *Learned about* -
 .some() checks if at least one element in your array meets what you're looking for. If you use curly braces in console.log, it'll show you the name of the variable as well as the value ex. `console.log({isAdult});` .every() checks if every element in the array meets what you're looking for. findIndex() find the index of the element you're looking for.
+
+### Day 8: May 23, 2020
+**Fun with HTML5 Canvas**<br>
+*Learned about* -
+Array destructuring using ES6. How lineJoin and lineCap works on the canvas. Hsl stands for hue, saturation and lightness. Using globalCompositeOperation with multiply, hard-light, luminosity etc. https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
