@@ -33,3 +33,9 @@ Similar to console.log you can do console.table and that'll show a table of your
 **Flex Panels Image Gallery**<br>
 *Learned about* -
 Refreshed Flexbox concepts and learned new tips using CSS first-child and last-child. Will checkout flexbox.io.
+
+
+### Day 6: May 22, 2020
+**Ajax Type Ahead**<br>
+*Learned about* -
+Fetch API, fetch returns a promise. ES6 spread "spreads" an array into separate arguments. Regex (regular expressions).
