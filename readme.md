@@ -54,3 +54,8 @@ Array destructuring using ES6. How lineJoin and lineCap works on the canvas. Hsl
 **14 Must Know Dev Tools Tricks**<br>
 *Learned about* -
 Learned some cool Dev Tools tricks. How to find where exactly the Javascript on your page is running. I found styling, grouping (using console.group and console.groupEnd console.groupCollapsed will collapse each group to make the console look cleaner (Super cool!)), and timing (can be used to time how long something takes to happen.. like fetching an API) particularly interesting.
+
+### Day 10: May 25, 2020
+**Hold Shift to Check Multiple Checkboxes**<br>
+*Learned about* -
+How the shift to check all feature in emails work with Javascript.
