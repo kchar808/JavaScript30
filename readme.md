@@ -49,3 +49,8 @@ Fetch API, fetch returns a promise. ES6 spread "spreads" an array into separate 
 **Fun with HTML5 Canvas**<br>
 *Learned about* -
 Array destructuring using ES6. How lineJoin and lineCap works on the canvas. Hsl stands for hue, saturation and lightness. Using globalCompositeOperation with multiply, hard-light, luminosity etc. https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
+
+### Day 9: May 24, 2020
+**14 Must Know Dev Tools Tricks**<br>
+*Learned about* -
+Learned some cool Dev Tools tricks. How to find where exactly the Javascript on your page is running. I found styling, grouping (using console.group and console.groupEnd console.groupCollapsed will collapse each group to make the console look cleaner (Super cool!)), and timing (can be used to time how long something takes to happen.. like fetching an API) particularly interesting.
