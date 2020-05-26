@@ -59,3 +59,8 @@ Learned some cool Dev Tools tricks. How to find where exactly the Javascript on 
 **Hold Shift to Check Multiple Checkboxes**<br>
 *Learned about* -
 How the shift to check all feature in emails work with Javascript.
+
+### Day 11: May 25, 2020
+**Custom HTML5 Video Player**<br>
+*Learned about* -
+How to create custom video interfaces. Pretty neat to learn how things run "under the hood".
