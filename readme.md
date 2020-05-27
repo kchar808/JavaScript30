@@ -64,3 +64,8 @@ How the shift to check all feature in emails work with Javascript.
 **Custom HTML5 Video Player**<br>
 *Learned about* -
 How to create custom video interfaces. Pretty neat to learn how things run "under the hood".
+
+### Day 12: May 26, 2020
+**Key Sequence Detection (KONAMI CODE)**<br>
+*Learned about* -
+Konami Code is a cheat code that appears in many Konami games and some non-Konami games. The cheat code is usually used by pressing buttons in a certain sequence. If you type '⬆️ ⬆️ ⬇️ ⬇️ ⬅️ ➡️ ⬅️ ➡️ B A'. on some sites you may find a surprise. Learned how key sequencing is checked using JS, by storing it in an array, joining it and then checking (from end to beginning) if the join array contains the secretCode. 
