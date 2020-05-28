@@ -69,3 +69,8 @@ How to create custom video interfaces. Pretty neat to learn how things run "unde
 **Key Sequence Detection (KONAMI CODE)**<br>
 *Learned about* -
 Konami Code is a cheat code that appears in many Konami games and some non-Konami games. The cheat code is usually used by pressing buttons in a certain sequence. If you type '⬆️ ⬆️ ⬇️ ⬇️ ⬅️ ➡️ ⬅️ ➡️ B A'. on some sites you may find a surprise. Learned how key sequencing is checked using JS, by storing it in an array, joining it and then checking (from end to beginning) if the join array contains the secretCode. 
+
+### Day 13: May 27, 2020
+**Slide in on Scroll**<br>
+*Learned about* -
+Using scrollY lets you know how far you've scrolled up or down on the page. innerHeight gives a value of the viewports height in pixels. Learned about the debounce function. A debounce function limits the rate at which a function can fire.
