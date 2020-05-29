@@ -74,3 +74,8 @@ Konami Code is a cheat code that appears in many Konami games and some non-Konam
 **Slide in on Scroll**<br>
 *Learned about* -
 Using scrollY lets you know how far you've scrolled up or down on the page. innerHeight gives a value of the viewports height in pixels. Learned about the debounce function. A debounce function limits the rate at which a function can fire.
+
+### Day 14: May 28, 2020
+**Objects and Arrays - Reference VS Copy**<br>
+*Learned about* -
+Array & object reference vs an actual copy. When updating an array, its always going to reference back. You can use slice to make a copy of an array. Spread will take every item out of your iterable and put it into the containing array (or object!). You can make a copy of an object using Oject.assign. Object.assign only goes 1 level deep. If you need a clone, you have to use the clone deep function. Found this article on deep cloning interesting https://medium.com/javascript-in-plain-english/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089
