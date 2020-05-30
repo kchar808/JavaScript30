@@ -84,3 +84,8 @@ Array & object reference vs an actual copy. When updating an array, its always g
 **LocalStorage and Event Delegation**<br>
 *Learned* -
 Unless explicitly handled, by default an Event will reload or send data to an external source, to stop it you can use preventDefault method. localStorage only accepts strings. JSON.stringify will turn your objects and arrays to a json string. JSON.parse does the opposite, it converts the json string back to what it orginally was (array, object). Event Delegation concept - instead of listening for a change on inputs directly, we will look for a HTML element that is going to be on the page when the page first loads (responsible parents and negligent children). Found this video very informative https://www.youtube.com/watch?v=pKzf80F3O0U
+
+### Day 16: May 30, 2020
+**CSS Text Shadow Mouse Move Effect**<br>
+*Learned* -
+You can use offsetX and offsetY to get the position of your cursor but if you have nested elements inside of that thing, you need to do some math to deal with it. This was pretty fun to create. The contentEditable property sets or returns whether the content of an element is editable or not.
