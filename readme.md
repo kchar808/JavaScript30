@@ -89,3 +89,8 @@ Unless explicitly handled, by default an Event will reload or send data to an ex
 **CSS Text Shadow Mouse Move Effect**<br>
 *Learned* -
 You can use offsetX and offsetY to get the position of your cursor but if you have nested elements inside of that thing, you need to do some math to deal with it. This was pretty fun to create. The contentEditable property sets or returns whether the content of an element is editable or not.
+
+### Day 17: May 31, 2020
+**Sorting Band Names without articles**<br>
+*Learned* -
+Learned how to use regex to replace certain letters/words and how to make it insensitive.
