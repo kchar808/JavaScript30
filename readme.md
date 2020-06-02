@@ -94,3 +94,8 @@ You can use offsetX and offsetY to get the position of your cursor but if you ha
 **Sorting Band Names without articles**<br>
 *Learned* -
 Learned how to use regex to replace certain letters/words and how to make it insensitive.
+
+### Day 18: June 1, 2020
+**Tally String Times with Reduce**<br>
+*Learned* -
+Learned more about using reduce() method. reduce can be used as a simpler/cleaner way of using the forEach() method.
