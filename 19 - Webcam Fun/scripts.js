@@ -28,10 +28,20 @@ function paintToCanvas() {
 }
 
 function takePhoto() {
+  // play camera sound
   snap.currentTime = 0;
   snap.play();
+
+  // take data out of canvas
+  const data = canvas.toDataURL('/image/jpeg');
+  const link = document.createElement('a');
+  link.href = data;
+  link.setAttribute = ('download', 'pretty');
+  link.textContent = 'Download Image';
+  strip.insertBefore(link, strip.firstChild);
 }
 
 getVideo();
 
+// paint video to canvas on page load
 video.addEventListener('canplay', paintToCanvas);
