@@ -99,3 +99,8 @@ Learned how to use regex to replace certain letters/words and how to make it ins
 **Tally String Times with Reduce**<br>
 *Learned* -
 Learned more about using reduce() method. reduce can be used as a simpler/cleaner way of using the forEach() method.
+
+### Day 19: June 2, 2020
+**Unreal Webcam Fun**<br>
+*Learned* -
+There's a npm dependency called browser-sync that allows you to open up your website and start a server. Use navigator.mediaDevices.getUserMedia to get users video. Learned how to take a snapshot from the camera and paint it on to a canvas. It's cool to see how screenshots kind of work behind the scenes, also how to add a download link for the image. Learned how to make my own filters for photos.. I plan on messing around with the colors and globalAlpha a bit. 👻
