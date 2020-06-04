@@ -11,7 +11,7 @@
 
   <h1 class="speed">
     <span class="speed-value">0</span>
-    <span class="units">KM/H</span>
+    <span class="units">MPH</span>
   </h1>
 
   <style>
@@ -64,7 +64,7 @@
 
     navigator.geolocation.watchPosition((data) => {
       console.log(data);
-      speed.textContent = data.coords.speed;
+      speed.textContent = Math.round(data.coords.speed * 0.62137);
       arrow.style.transform = `rotate(${data.coords.heading}deg)`;
     }, (err) => {
       console.err(err);
