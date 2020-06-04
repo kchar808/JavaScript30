@@ -109,3 +109,8 @@ There's a npm dependency called browser-sync that allows you to open up your web
 **Native Speech Recognition**<br>
 *Learned* -
 Learned how speech recognition is used is the browser. This is similar to whats used with hands-free apps, like Alexa or Siri. You can use what you say to run a function like for example, getting the weather.
+
+### Day 22: June 4, 2020
+**Geolocation based Speedometer and Compass**<br>
+*Learned* -
+Learned more about using the simulator, and using Safaris devTools. I also learned that you can use watchPosition() to watch for position change and that we move the compass based on the heading degree (which is relative to north).
