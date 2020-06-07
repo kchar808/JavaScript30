@@ -129,3 +129,8 @@ Worked with Speech Synthesis API. bind takes a func, calls in the function of th
 **Sticky Nav**<br>
 *Learned* -
 You cannot animate the width of something to be from 0, you should instead use max-width. Learned about the importance of adjusting the paddingTop so that it doesn't make the content jump up/down.
+
+### Day 25: June 7, 2020
+**Event Capture, Propagation, Bubbling and Once**<br>
+*Learned* -
+Capture - Captures events from top -> down. Bubbling - The browers figures out what you clicked on, but it also triggers clicks up the chain. The stopPropagation method stops the bubbling of an event. Also learned about the addEventListener parameter once.. if its set to true, the listener will only be invoked at most once, then the listener will be automatically removed.
