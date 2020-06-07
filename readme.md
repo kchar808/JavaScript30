@@ -134,3 +134,8 @@ You cannot animate the width of something to be from 0, you should instead use m
 **Event Capture, Propagation, Bubbling and Once**<br>
 *Learned* -
 Capture - Captures events from top -> down. Bubbling - The browers figures out what you clicked on, but it also triggers clicks up the chain. The stopPropagation method stops the bubbling of an event. Also learned about the addEventListener parameter once.. if its set to true, the listener will only be invoked at most once, then the listener will be automatically removed.
+
+### Day 26: June 7, 2020
+**Stripe Follow Along Dropdown**<br>
+*Learned* -
+Learned how transition and animations work behind the scenes in frameworks like Angular and React. The animations are similar to the one Stripe uses on their website https://stripe.com/.
