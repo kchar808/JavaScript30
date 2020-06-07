@@ -124,3 +124,8 @@ getBoundingClientRect is a method that returns the size of an element and its po
 **Speech Synthesis**<br>
 *Learned* -
 Worked with Speech Synthesis API. bind takes a func, calls in the function of this and you pass it an argument.
+
+### Day 24: June 7, 2020
+**Sticky Nav**<br>
+*Learned* -
+You cannot animate the width of something to be from 0, you should instead use max-width. Learned about the importance of adjusting the paddingTop so that it doesn't make the content jump up/down.
