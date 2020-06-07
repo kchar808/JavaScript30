@@ -13,36 +13,53 @@
     </div>
   </div>
 
-<style>
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after { 
-    box-sizing: inherit; 
-  }
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after { 
+      box-sizing: inherit; 
+    }
 
-  div {
-    width: 100%;
-    padding: 100px;
-  }
+    div {
+      width: 100%;
+      padding: 100px;
+    }
 
-  .one {
-    background: thistle;
-  }
+    .one {
+      background: thistle;
+    }
 
-  .two {
-    background: mistyrose;
-  }
+    .two {
+      background: mistyrose;
+    }
 
-  .three {
-    background: coral;
-  }
-</style>
+    .three {
+      background: coral;
+    }
+  </style>
 
-<button></button>
-<script>
+  <button>Click</button>
+  <script>
+    const divs = document.querySelectorAll('div');
+    const button = document.querySelector('button');
 
-</script>
+    function logText(e) {
+      console.log(this.classList.value);
+      // e.stopPropagation(); // stop bubbling
+    }
+
+    divs.forEach(div => div.addEventListener('click', logText, {
+      capture: false,
+      once: true  
+    }));
+
+    button.addEventListener('click', () => {
+      console.log('click');
+    }, {
+      once: true
+    })
+  </script>
 </body>
 </html>
