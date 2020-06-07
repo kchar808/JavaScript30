@@ -119,3 +119,8 @@ Learned more about using the simulator, and using Safaris devTools. I also learn
 **Follow Along Links**<br>
 *Learned* -
 getBoundingClientRect is a method that returns the size of an element and its position relative to the viewport (top, left, bottom, right).
+
+### Day 23: June 6, 2020
+**Speech Synthesis**<br>
+*Learned* -
+Worked with Speech Synthesis API. bind takes a func, calls in the function of this and you pass it an argument.
