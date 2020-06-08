@@ -139,3 +139,10 @@ Capture - Captures events from top -> down. Bubbling - The browers figures out w
 **Stripe Follow Along Dropdown**<br>
 *Learned* -
 Learned how transition and animations work behind the scenes in frameworks like Angular and React. The animations are similar to the one Stripe uses on their website https://stripe.com/.
+
+
+### Day 27: June 8, 2020
+**Click and Drag to Scroll**<br>
+*Learned* -
+Learned the basics of how click and drag to scroll works with Javascript.
+
