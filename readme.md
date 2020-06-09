@@ -146,3 +146,7 @@ Learned how transition and animations work behind the scenes in frameworks like 
 *Learned* -
 Learned the basics of how click and drag to scroll works with Javascript.
 
+### Day 28: June 9, 2020
+**Video Speed Controller UI**<br>
+*Learned* -
+Learned how playback speed is controlled. Also learning more about offsetHeight, offsetTop, offsetWidth and offsetLeft. 
