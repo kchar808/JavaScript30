@@ -149,4 +149,9 @@ Learned the basics of how click and drag to scroll works with Javascript.
 ### Day 28: June 9, 2020
 **Video Speed Controller UI**<br>
 *Learned* -
-Learned how playback speed is controlled. Also learning more about offsetHeight, offsetTop, offsetWidth and offsetLeft. 
+Learned how playback speed is controlled. Also learning more about offsetHeight, offsetTop, offsetWidth and offsetLeft.
+
+### Day 29: June 10, 2020
+**Countdown Clock**<br>
+*Learned* -
+You can use document.title to edit the browser tab. Date.now() returns the number of milliseconds since Jan 1, 1970. clearInterval() method clears a timer that was set with setInterval().
