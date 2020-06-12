@@ -155,3 +155,8 @@ Learned how playback speed is controlled. Also learning more about offsetHeight,
 **Countdown Clock**<br>
 *Learned* -
 You can use document.title to edit the browser tab. Date.now() returns the number of milliseconds since Jan 1, 1970. clearInterval() method clears a timer that was set with setInterval().
+
+### Day 30: June 11, 2020
+**Whack A Mole Game**<br>
+*Learned* -
+Last day of Javascript30. Learned many new things. 😎
